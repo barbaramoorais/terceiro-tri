@@ -66,14 +66,26 @@
         color: rgb(43, 26, 101);
         display: block;
     }
-    .opcoes{
+    .opçoes{
         display: flex;
     }
-    .opcoes__item{
+    .opçoes__item{
         padding: 0 1em;
     }
-    .opcoes__link{
+    .opçoes__link{
         text-decoration: none;
         color: var(--preto);
+    }
+    .container__imagem--transparente{
+         display: none;
+    }
+    .cabecalho__menu-hamburguer{
+        display: none;
+    }
+    .opçoes__botao:checked~.lista-menu{
+        display: block;
+    }
+    .opçoes__botao{
+        display: none;
     }
 }
